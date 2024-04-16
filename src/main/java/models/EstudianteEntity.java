@@ -8,7 +8,6 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "estudiante", schema = "registro", catalog = "")
-
 @CascadeOnDelete
 public class EstudianteEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -78,5 +77,15 @@ public class EstudianteEntity implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(idestudiante, carnet, nombres, apellidos);
+    }
+
+    @Override
+    public String toString() {
+        return "EstudianteEntity{" +
+                "idestudiante=" + idestudiante +
+                ", carnet='" + carnet + '\'' +
+                ", nombres='" + nombres + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                '}';
     }
 }

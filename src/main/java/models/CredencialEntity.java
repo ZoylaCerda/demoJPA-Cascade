@@ -92,4 +92,15 @@ public class CredencialEntity implements Serializable {
     public int hashCode() {
         return Objects.hash(idcredencial, username, password, activo, idestudiante);
     }
+
+    @Override
+    public String toString() {
+        return "CredencialEntity{" +
+                "idcredencial=" + idcredencial +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", activo=" + activo +
+                ", idestudiante=" + idestudiante +
+                '}';
+    }
 }
