@@ -11,7 +11,7 @@
         <properties>                                                                    <!--mi db-->
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/registro?useSSL=false&amp;useTimezone=true&amp;serverTimezone=UTC" />
             <property name="javax.persistence.jdbc.user" value="root" /> <!--mi usuario-->
-            <property name="javax.persistence.jdbc.password" value="admin" /><!--mi contra-->
+            <property name="javax.persistence.jdbc.password" value="a$1C" /><!--mi contra-->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
             <property name="eclipselink.logging.level.sql" value="FINE" />
             <property name="eclipselink.logging.parameters" value="true" />
